@@ -11,8 +11,10 @@ public class LargestFromTwo {
 
     if(num1>num2) {
       System.out.println("Largest num is "+num1);
-    } else {
+    } else if(num2>num1){
       System.out.println("Largest num is "+num2);
+    } else {
+      System.out.println("Both are equal");
     }
 
     sc.close();

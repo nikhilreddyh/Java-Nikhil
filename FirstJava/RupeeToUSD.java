@@ -6,9 +6,9 @@ public class RupeeToUSD {
   public static void main(String[] args) {
 
     Scanner sc = new Scanner(System.in);
-    int rupee = sc.nextInt();
+    double rupee = sc.nextInt();
 
-    float usd = rupee*0.013f;
+    double usd = rupee*0.013;
 
     System.out.println(rupee+" rupee is equal to "+usd+" USD");
 

@@ -5,9 +5,9 @@ public class SimpleInterest {
   public static void main(String[] args) {
 
     Scanner sc = new Scanner(System.in);
-    int p = sc.nextInt();
-    int t = sc.nextInt();
-    int r = sc.nextInt();
+    double p = sc.nextDouble();
+    double t = sc.nextDouble();
+    double r = sc.nextDouble();
 
     System.out.println(p*t*r/100);
 
