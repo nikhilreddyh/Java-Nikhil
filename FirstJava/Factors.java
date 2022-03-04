@@ -14,5 +14,7 @@ public class Factors {
       if(num%i==0)
         System.out.println(i);
     }
+
+    sc.close();
   }
 }

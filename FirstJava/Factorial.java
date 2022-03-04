@@ -15,5 +15,7 @@ public class Factorial {
       p=p*i;
     }
     System.out.println("Factorial of "+num+" is "+p);
+
+    sc.close();
   }
 }

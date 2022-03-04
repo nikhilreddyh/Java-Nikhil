@@ -16,5 +16,7 @@ public class ContinuousSum {
       num = sc.nextInt();
     }
     System.out.println("Total sum is "+sum);
+
+    sc.close();
   }
 }
