@@ -5,7 +5,7 @@ import java.util.*;
 
 public class LCM {
   // formula : a*b = lcm(a,b)*gcd(a,b)
-  
+
   // solution 2
   // static int gcd(int a, int b) {
   //   // base case
@@ -36,6 +36,8 @@ public class LCM {
 
     // solution 2
     // System.out.println("LCM : "+(a*b)/gcd(a,b));
+
+    sc.close();
 
   }
 }
