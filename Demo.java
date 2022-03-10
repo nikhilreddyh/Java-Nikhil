@@ -5,12 +5,15 @@ public class Demo {
     
     Scanner sc = new Scanner(System.in);
 
-    String a = "Kunal";
-    String b = new String("Kunal");
-
-    System.out.println(a.equals(b));
+    if(isEven(sc.nextInt()) == 0) System.out.println("Even");
+    else System.out.println("Odd");
+    
 
     sc.close();
     
+  }
+
+  static int isEven(int n) {
+    return (n & 1);
   }
 }
