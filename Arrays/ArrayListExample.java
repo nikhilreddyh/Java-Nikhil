@@ -22,6 +22,8 @@ public class ArrayListExample {
     }
 
     System.out.println(list);
+
+    // list.toArray(a)
     
 
   }
